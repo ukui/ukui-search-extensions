@@ -1,20 +1,21 @@
 /*
- * 1. The data source of this plugin is to from the public server of Netease
- * Cloud Music platform. this plugin is not responsible for the accuracy of
+ * The data source of this plugin is the public server of Netease Cloud 
+ * Music platform. This plugin is not responsible for the accuracy of
  * the data.
  *
- * 2. Copyright data may be generated during the use of this plugin. For the
+ * Copyright data may be generated during the use of this plugin. For the
  * data with copyright, the plugin does not own the ownership. In order to
  * avoid infringement, users must clear the data with copyright generated
  * during the use of this plugin within 24 hours.
  *
- * 3. Any direct, indirect, special, accidental or consequential damage of
- * any nature arising from the use of this plugin, including but not limited
- * to due to loss of goodwill, work stoppage, Compensation for computer
+ * Any direct, indirect, special, accidental or consequential damage of any
+ * nature arising from the use of this plugin (including but not limited to
+ * due to loss of goodwill, work stoppage, Compensation for computer
  * failure or damage caused by the failure, or any and all other commercial
  * damage or loss) is the responsibility of the user.
+ *
+ * Author: maoyiming<maoym99@outlook.com>
  */
-
 #ifndef MUSICPLUGIN_H
 #define MUSICPLUGIN_H
 

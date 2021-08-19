@@ -1,3 +1,6 @@
+/*
+ * Author: maoyiming<maoym99@outlook.com>
+ */
 #ifndef MUSICINFO_H
 #define MUSICINFO_H
 

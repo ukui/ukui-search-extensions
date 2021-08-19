@@ -1,3 +1,6 @@
+/*
+ * Author: maoyiming<maoym99@outlook.com>
+ */
 #ifndef MUSICPLUGIN_GLOBAL_H
 #define MUSICPLUGIN_GLOBAL_H
 

@@ -1,3 +1,6 @@
+/*
+ * Author: maoyiming<maoym99@outlook.com>
+ */
 #include "musicplugin.h"
 
 using namespace Zeeker;
