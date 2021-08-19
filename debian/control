@@ -1,0 +1,22 @@
+Source: ukui-search-extensions
+Section: utils
+Priority: optional
+Maintainer: zhangpengfei <zhangpengfei@kylinos.cn>
+Build-Depends: debhelper (>=9.0.0),
+               pkgconf,
+               libgsettings-qt-dev,
+               qtbase5-dev,
+               qt5-qmake,
+               qtchooser,
+               qtscript5-dev,
+               qttools5-dev-tools,
+               libglib2.0-dev,
+               libchinese-segmentation, 
+               libukui-search 
+Standards-Version: 0.0.1
+
+Package: libmusicplugin
+Architecture: any
+Depends: ${shlibs:Depends}, 
+         ${misc:Depends}
+Description: libmusicplugin is a plugin for ukui-search to implement online music search.
