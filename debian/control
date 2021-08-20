@@ -13,9 +13,13 @@ Build-Depends: debhelper (>=9.0.0),
                libglib2.0-dev,
                libchinese-segmentation, 
                libukui-search 
-Standards-Version: 0.0.1
+Standards-Version: 4.5.0
+Homepage: https://www.ukui.org/
+Vcs-Git:  https://github.com/ukui/ukui-search-extensions.git
+Vcs-Browser: https://github.com/ukui/ukui-search-extensions
 
-Package: libmusicplugin
+
+Package: libmusic-plugin
 Architecture: any
 Depends: ${shlibs:Depends}, 
          ${misc:Depends}

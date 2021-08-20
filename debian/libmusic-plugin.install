@@ -1,0 +1,2 @@
+ukui-search-music-plugin/libmusic-plugin.so usr/lib/*/ukui-search-plugins/libmusic-plugin.so
+ukui-search-music-plugin/.qm/*.qm usr/share/ukui-search-plugins/music-plugin/translations
