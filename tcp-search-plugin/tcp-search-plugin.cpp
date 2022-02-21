@@ -7,6 +7,8 @@
 #include <QTranslator>
 #include <QApplication>
 #include <QTextCodec>
+#include <QDir>
+#include <QFileInfo>
 
 #define MAIN_SETTINGS QDir::homePath() + "/.config/org.ukui/ukui-search/tcp-search-plugin.conf"
 #define DOWNLOAD_PATH "download_path"

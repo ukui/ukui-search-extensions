@@ -13,11 +13,8 @@
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
 #include <QSettings>
-#include "common.h"
-#include <action-label.h>
-#include <separation-line.h>
+#include <UkuiSearchPluginIface>
 #include "tcp-search-plugin_global.h"
-#include "ukui-search/search-plugin-iface.h"
 
 namespace Zeeker{
 

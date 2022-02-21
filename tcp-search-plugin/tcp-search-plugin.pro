@@ -4,7 +4,7 @@ TEMPLATE = lib
 DEFINES += TCPSEARCHPLUGIN_LIBRARY
 TARGET = $$qtLibraryTarget(tcp-search-plugin)
 CONFIG += c++11 plugin lrelease link_pkgconfig
-PKGCONFIG += gsettings-qt
+PKGCONFIG += gsettings-qt ukui-search
 
 # The following define makes your compiler emit warnings if you use
 # any Qt feature that has been marked deprecated (the exact warnings
@@ -34,10 +34,6 @@ HEADERS += \
 
 target.path = $$[QT_INSTALL_LIBS]/ukui-search-plugins
 INSTALLS += target
-
-QMAKE_CXXFLAGS += -I/usr/include/ukui-search
-
-LIBS += -lukui-search
 
 DISTFILES += \
     common.json
