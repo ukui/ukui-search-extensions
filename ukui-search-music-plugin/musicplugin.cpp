@@ -9,13 +9,12 @@ size_t MusicPlugin::uniqueSymbol = 0;
 
 MusicPlugin::MusicPlugin(QObject *parent) : QObject(parent)
 {
-    QTranslator* translator = new QTranslator(this);
-    try {
-        if(!translator->load("/usr/share/ukui-search-plugins/musicPlugin/translations/" + QLocale::system().name())) throw - 1;
-        QApplication::installTranslator(translator);
-    } catch(...) {
-        qDebug() << "Load translations file" << QLocale() << "failed!";
+    QTranslator *t = new QTranslator(this);
+    QString path = "/usr/share/ukui-search-plugins/music-plugin/translations/"+QLocale::system().name();
+    if(!t->load(path)) {
+        qDebug() << "Load translations file failed,"<<"system().name and path:"<<QLocale::system().name() << path;
     }
+    QApplication::installTranslator(t);
 
     m_networkUtil = new NetworkUtil(m_infos);
     connect(m_networkUtil, &NetworkUtil::musicDownloadSuccess, this, &MusicPlugin::musicDownloadSuccess);
@@ -54,6 +53,10 @@ void MusicPlugin::KeywordSearch(QString keyword, DataQueue<ResultInfo> *searchRe
     ++MusicPlugin::uniqueSymbol;
     m_networkUtil->getList(keyword, 8, searchResult, MusicPlugin::uniqueSymbol);
 
+}
+
+void MusicPlugin::stopSearch()
+{
 }
 
 QList<SearchPluginIface::Actioninfo> MusicPlugin::getActioninfo(int type) {

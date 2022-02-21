@@ -24,3 +24,9 @@ Architecture: any
 Depends: ${shlibs:Depends}, 
          ${misc:Depends}
 Description: libmusicplugin is a plugin for ukui-search to implement online music search.
+
+Package: ukui-search-tcp-search-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, 
+         ${misc:Depends}
+Description: A plugin for ukui-search to implement local area network file search, a tcp server is required.

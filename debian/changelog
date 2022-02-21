@@ -1,3 +1,9 @@
+ukui-search-extensions (1.1.0+0221) v101; urgency=medium
+
+  * Add tcp search plugin.
+
+ -- zhangpengfei <zhangpengfei@kylinos.cn>  Mon, 21 Feb 2022 10:49:23 +0800
+
 ukui-search-extensions (1.0.0+0820) v101; urgency=medium
 
   * Initial release.

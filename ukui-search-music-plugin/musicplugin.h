@@ -52,7 +52,7 @@ public:
     ~MusicPlugin();
 
     PluginType pluginType() {return PluginType::SearchPlugin;}
-    const QString name() {return tr("Online Music Search");}
+    const QString name() {return "Online Music Search";}
     const QString description() {return tr("Music search.");}
     const QIcon icon() {return QIcon::fromTheme("folder");}
     void setEnable(bool enable) {m_enable = enable;}
@@ -60,6 +60,7 @@ public:
 
     QString getPluginName();
     void KeywordSearch(QString keyword,DataQueue<ResultInfo> *searchResult);
+    void stopSearch();
     QList<Actioninfo> getActioninfo(int type);
     void openAction(int actionkey, QString key, int type);
     QWidget *detailPage(const ResultInfo &ri);
