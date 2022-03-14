@@ -3,7 +3,7 @@
  */
 #include "networkutil.h"
 
-using namespace Zeeker;
+using namespace UkuiSearch;
 
 NetworkUtil::NetworkUtil(QVector<MusicInfo>& infos, QObject *parent) : QObject(parent)
 {

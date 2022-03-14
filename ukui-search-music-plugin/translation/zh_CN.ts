@@ -2,7 +2,7 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="zh" sourcelanguage="en">
 <context>
-    <name>Zeeker::MusicPlugin</name>
+    <name>UkuiSearch::MusicPlugin</name>
     <message>
         <location filename="../musicplugin.cpp" line="48"/>
         <source>Music Plugin</source>

@@ -2,7 +2,7 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="zh_CN">
 <context>
-    <name>Zeeker::SearchWorker</name>
+    <name>UkuiSearch::SearchWorker</name>
     <message>
         <location filename="../tcp-search-plugin.cpp" line="238"/>
         <source>Path:</source>
@@ -10,7 +10,7 @@
     </message>
 </context>
 <context>
-    <name>Zeeker::TcpSearchPlugin</name>
+    <name>UkuiSearch::TcpSearchPlugin</name>
     <message>
         <location filename="../tcp-search-plugin.cpp" line="16"/>
         <location filename="../tcp-search-plugin.cpp" line="145"/>

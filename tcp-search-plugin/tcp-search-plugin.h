@@ -14,15 +14,16 @@
 #include <QNetworkReply>
 #include <QSettings>
 #include <UkuiSearchPluginIface>
+#include <separation-line.h>
 #include "tcp-search-plugin_global.h"
 
-namespace Zeeker{
+namespace UkuiSearch{
 
 class TCPSEARCHPLUGIN_EXPORT TcpSearchPlugin: public QObject, public SearchPluginIface
 {
     Q_OBJECT
     Q_PLUGIN_METADATA(IID SearchPluginIface_iid FILE "common.json")
-    Q_INTERFACES(Zeeker::SearchPluginIface)
+    Q_INTERFACES(UkuiSearch::SearchPluginIface)
 
 public:
     friend class SearchWorker;

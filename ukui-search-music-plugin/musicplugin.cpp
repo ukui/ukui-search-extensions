@@ -3,7 +3,7 @@
  */
 #include "musicplugin.h"
 
-using namespace Zeeker;
+using namespace UkuiSearch;
 
 size_t MusicPlugin::uniqueSymbol = 0;
 

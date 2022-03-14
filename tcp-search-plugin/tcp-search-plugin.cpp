@@ -19,7 +19,7 @@
 #define PORT "port"
 #define DOWNLOAD_PORT "download_port"
 
-using namespace Zeeker;
+using namespace UkuiSearch;
 
 size_t TcpSearchPlugin::m_uniqueSymbol = 0;
 QMutex TcpSearchPlugin::m_mutex;

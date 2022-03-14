@@ -37,7 +37,7 @@
 #include "networkutil.h"
 #include "musicInfo.h"
 
-namespace Zeeker{
+namespace UkuiSearch{
 
 class NetworkUtil;
 
@@ -46,7 +46,7 @@ class MUSICPLUGIN_EXPORT MusicPlugin : public QObject, public SearchPluginIface
     friend class NetworkUtil;
     Q_OBJECT
     Q_PLUGIN_METADATA(IID SearchPluginIface_iid FILE "common.json")
-    Q_INTERFACES(Zeeker::SearchPluginIface)
+    Q_INTERFACES(UkuiSearch::SearchPluginIface)
 public:
     MusicPlugin(QObject *parent = nullptr);
     ~MusicPlugin();

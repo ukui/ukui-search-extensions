@@ -25,7 +25,7 @@
 #include "ukui-search/search-plugin-iface.h"
 #include "musicplugin.h"
 
-namespace Zeeker{
+namespace UkuiSearch{
 
 class NetworkUtil : public QObject
 {

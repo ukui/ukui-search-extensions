@@ -4,7 +4,7 @@
 #ifndef MUSICINFO_H
 #define MUSICINFO_H
 
-namespace Zeeker {
+namespace UkuiSearch {
 class MusicInfo {
 public:
 
